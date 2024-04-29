@@ -5,6 +5,7 @@ import freshersweek from "./fresherweek.jpg";
 import friendsday from "./friendsday.jpg";
 import prayermeeting from "./prayermeeting.jpg"
 import sundaybiblestudies from "./nubsuenr_biblestudies_service.jpg"
+import tazie from"./taize.jpg"
 
 export {
     logo,
@@ -13,5 +14,6 @@ export {
     freshersweek,
     friendsday,
     prayermeeting,
-    sundaybiblestudies
+    sundaybiblestudies,
+    tazie
 }

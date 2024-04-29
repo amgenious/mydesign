@@ -1,4 +1,4 @@
-import { biblestudies, freshersservice, freshersweek, friendsday, prayermeeting, sundaybiblestudies } from "@/images"
+import { biblestudies, freshersservice, freshersweek, friendsday, prayermeeting, sundaybiblestudies, tazie } from "@/images"
 
 const navlinks = [
     {
@@ -64,6 +64,13 @@ const designs =[
         category:"sundayservice",
         image:sundaybiblestudies,
         psd:"https://mega.nz/file/sGs3BKSQ#OqUsNuEQXCrALxty6jq-zmhIrFx8PV4vw_FKl-B7qxI"
+    },
+    {
+        id:'7',
+        name:'Sunday Prayer Service',
+        category:"sundayservice",
+        image:tazie,
+        psd:'https://mega.nz/file/FK8XzRKL#Z_3DhA5T1pwEIUraMhPls9NscehU210GPaqGlzxwghk'
     }
 ]
 
