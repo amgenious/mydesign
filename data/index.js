@@ -1,4 +1,4 @@
-import { biblestudies, freshersservice, freshersweek, friendsday, prayermeeting, sundaybiblestudies, tazie } from "@/images"
+import { biblestudies, familyweek, freshersservice, freshersweek, friendsday, prayermeeting, sundaybiblestudies, tazie, youth } from "@/images"
 
 const navlinks = [
     {
@@ -18,7 +18,7 @@ const navlinks = [
     },
     {
         id:'12',
-        name:'Week Celebrations',
+        name:'Other Programs',
         url:'/weekcelebrations'
     },
 ]
@@ -71,6 +71,20 @@ const designs =[
         category:"sundayservice",
         image:tazie,
         psd:'https://mega.nz/file/FK8XzRKL#Z_3DhA5T1pwEIUraMhPls9NscehU210GPaqGlzxwghk'
+    },
+    {
+        id:'8',
+        name:'Sunday Serivce',
+        category:"sundayservice",
+        image:youth,
+        psd:'https://mega.nz/file/UC003SQJ#emN4A4RJBT3qV7hgRC_woEcSDxkePaU9a58M2KLCVzE'
+    },
+    {
+        id:'9',
+        name:'Family Week',
+        category:"weekcelebrations",
+        image:familyweek,
+        psd:'https://mega.nz/file/JT9FDSYD#A2fZy8T6N6uvtC5mljVa_tNQis6Bg5db9BLPYy9m-wo'
     }
 ]
 
