@@ -4,15 +4,15 @@ export default function Weekmeeting(){
     return(
         <div className="w-[100%] text-center bg-white h-fit md:h-screen p-2">
         <div className='w-[100%] flex flex-col justify-center items-center mt-3 mb-3 gap-8'>
-         <div className='w-[100%] flex flex-wrap justify-center items-center gap-24'>
+         <div className='w-[100%] flex flex-wrap justify-center items-center gap-x-10'>
             {
                 designs
                 .filter((product) => product.category === "weekmeetings")
                 .sort((a, b) => b.id - a.id)
                 .map((product)=>(
-                    <div className="card w-80 h-80 bg-slate-900" key={product.id}>
-                      <Image src={product.image} alt="car!" />
-                      <div className="w-full flex justify-end cursor-pointer">
+                    <div className="card w-80 h-80 bg-white relative mb-10" key={product.id}>
+                      <Image src={product.image} alt="car!" className="object-contain w-80 h-80"/>
+                      <div className="w-fit right-0 flex justify-end cursor-pointer absolute bg-white">
                     <a href={product.psd}  download={product.name}>
                   <div className="flex gap-2 p-2 text-black">
                   <svg
