@@ -9,6 +9,12 @@ import sundaybiblestudies from "./nubsuenr_biblestudies_service.jpg"
 import tazie from"./taize.jpg"
 import youth from "./youth.jpg"
 import familyweek from "./familyweek.jpg"
+import sop from "./sop.jpg"
+import aluhf from "./aluhf.jpg"
+import hgo from "./hgo.jpg"
+import cd from "./cd.jpg"
+import nc from "./nc.jpg"
+import hgopro from "./hgo_profile.jpg"
 
 export {
     logo,
@@ -21,5 +27,5 @@ export {
     tazie,
     about,
     youth,
-    familyweek
+    familyweek,sop,aluhf,hgo,cd,nc,hgopro
 }

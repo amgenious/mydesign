@@ -1,4 +1,4 @@
-import { biblestudies, familyweek, freshersservice, freshersweek, friendsday, prayermeeting, sundaybiblestudies, tazie, youth } from "@/images"
+import { aluhf, biblestudies, cd, familyweek, freshersservice, freshersweek, friendsday, hgo, hgopro, nc, prayermeeting, sop, sundaybiblestudies, tazie, youth } from "@/images"
 
 const navlinks = [
     {
@@ -18,8 +18,13 @@ const navlinks = [
     },
     {
         id:'12',
-        name:'Other Programs',
+        name:'Week Celebrations',
         url:'/weekcelebrations'
+    },
+    {
+        id:'13',
+        name:'Others',
+        url:'/others'
     },
 ]
 const designs =[
@@ -85,7 +90,49 @@ const designs =[
         category:"weekcelebrations",
         image:familyweek,
         psd:'https://mega.nz/file/JT9FDSYD#A2fZy8T6N6uvtC5mljVa_tNQis6Bg5db9BLPYy9m-wo'
-    }
+    },
+    {
+        id:'10',
+        name:'Sounds of Praise',
+        category:"weekcelebrations",
+        image:sop,
+        psd:'https://mega.nz/file/QbVHFCaI#mDtnBbaf3KAfQ2_s0JXPuHePsCtFRV-6Flx_5ZWDp7g'
+    },
+    {
+        id:'11',
+        name:'Alumni Homecoming and Fundraising',
+        category:"sundayservice",
+        image:aluhf,
+        psd:'https://mega.nz/file/wS1mHA5K#SzNTyEbtAoxtPHAiq0KfjLoeWB1JVP2nPYArzXig5HM'
+    },
+    {
+        id:'12',
+        name:'Alumni Hangout',
+        category:"weekcelebrations",
+        image:hgo,
+        psd:'https://mega.nz/file/9atkEZSI#SGWBb5NU5tTL9Pzg7tvYbijppJIE0vt422QpBnZuuCw'
+    },
+    {
+        id:'13',
+        name:'Alumni Homecoming count down',
+        category:"others",
+        image:cd,
+        psd:'https://mega.nz/file/seUVxQLS#7YK66IdGtbzPkzMplYsuvksfTQTtleclAnIqHxRHoq8'
+    },
+    {
+        id:'14',
+        name:'Naming Ceremony',
+        category:"others",
+        image:nc,
+        psd:'https://mega.nz/file/gTkQnADA#FLCpHzGJaHpi13tIsqoRjaanovn9MD2ySS67J03zBNM'
+    },
+    {
+        id:'15',
+        name:'Host Profile',
+        category:"others",
+        image:hgopro,
+        psd:'https://mega.nz/file/1DUzTLAC#OYfaYqOsND7ghjpJdng4bZ5KK8Eh2V_Vq3ebA9_ELR8'
+    },
 ]
 
 
