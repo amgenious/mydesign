@@ -1,4 +1,4 @@
-import { aluhf, biblestudies, cd, familyweek, freshersservice, freshersweek, friendsday, hgo, hgopro, nc, prayermeeting, sop, sundaybiblestudies, tazie, youth } from "@/images"
+import { aluhf, biblestudies, cd, familyweek, freshersservice, freshersweek, friendsday, hgo, hgopro, nc, prayermeeting, sop, sundaybiblestudies, tazie, youth } from "../images/index"
 
 const navlinks = [
     {
