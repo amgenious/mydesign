@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { designs } from "@/data";
+import { designs } from "../data/index";
 
 export default function Home() {
   return (

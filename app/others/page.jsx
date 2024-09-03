@@ -1,4 +1,4 @@
-import { designs } from "@/data";
+import { designs } from "../../data/index";
 import Image from "next/image";
 
 export default function OthersPage () {

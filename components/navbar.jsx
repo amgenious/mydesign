@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { about, logo } from '@/images'
+import { about, logo } from '../images/index'
 import { Filter } from './filter'
 
 export const Navbar = () => {

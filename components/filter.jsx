@@ -1,4 +1,4 @@
-import { navlinks } from '@/data/index'
+import { navlinks } from '../data/index'
 import Link from "next/link"
 
 export const Filter = () => {
